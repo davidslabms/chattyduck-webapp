@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatty Ducky</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Chatty Ducky</h1>
+    </header>
+    
+    <main>
+        <section class="image-gallery">
+            <img src="duck1.png" alt="Yellow Duck">
+            <img src="duck2.png" alt="Yellow Duck">
+            <img src="duck3.png" alt="Yellow Duck">
+        </section>
+        
+        <form>
+            <label>Choose an option:</label><br>
+            <input type="radio" name="option" value="1"> Option 1<br>
+            <input type="radio" name="option" value="2"> Option 2<br>
+            <input type="radio" name="option" value="3"> Option 3<br>
+        </form>
+    </main>
+
+    <footer>
+        <address>
+            Contact us at <a href="mailto:info@chattyducky.com">info@chattyducky.com</a>
+        </address>
+    </footer>
+</body>
+</html>
